@@ -170,18 +170,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013369039, y: -0.017127477}
+  m_Offset: {x: 0.022120424, y: -0.023759872}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.48, y: 0.48}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17111677, y: 0.44601524}
+  m_Size: {x: 0.31493855, y: 0.95705706}
   m_EdgeRadius: 0
 --- !u!50 &120966652
 Rigidbody2D:
@@ -265,7 +265,7 @@ Transform:
   m_GameObject: {fileID: 120966649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.14, y: -0.17, z: 0}
-  m_LocalScale: {x: 5.4, y: 5.4, z: 5.4}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 3.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 565677123}
-  - component: {fileID: 565677122}
+  - component: {fileID: 565677124}
   m_Layer: 0
   m_Name: Bush Spawner
   m_TagString: Untagged
@@ -448,18 +448,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &565677122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565677121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41cd164142bdd2e4ca442f94ae21d68c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &565677123
 Transform:
   m_ObjectHideFlags: 0
@@ -468,13 +456,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565677121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.96, y: -2.69, z: 0.033207376}
+  m_LocalPosition: {x: 9.54, y: -2.69, z: 0.033207376}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &565677124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565677121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87552486c315552499d62900bdeb57da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bushes:
+  - {fileID: 7467194014400119718, guid: 15a2c27d152b5824f84e7250a8babaa3, type: 3}
+  - {fileID: 3632133930013395242, guid: 868ba72792a3a6e47b49a78b8ac5ede5, type: 3}
+  - {fileID: 7389546441058827555, guid: 155aee36654a78c4783d61f463f94330, type: 3}
+  - {fileID: 6995849571946605981, guid: 5a84e2ed4e3486748863c1008f9fb206, type: 3}
+  spawnInterval: 1
+  bushSpeed: 10
 --- !u!1 &826446306
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +583,57 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1424952092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1424952094}
+  - component: {fileID: 1424952093}
+  m_Layer: 0
+  m_Name: Fossil Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1424952093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424952092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cd164142bdd2e4ca442f94ae21d68c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fossils:
+  - {fileID: 2236668314129962753, guid: 337b3b410cb2b174987d94b439bd18c5, type: 3}
+  - {fileID: 1971721557136098076, guid: 5cd64a5e95d423b4aa2e321b1af6e1e1, type: 3}
+  - {fileID: 3391232058156629492, guid: 25b5fb05a58e770449dc42c767eeb093, type: 3}
+  - {fileID: 6000121904925415948, guid: 17becd4b71ce03c4dbb702aad28e3c9b, type: 3}
+  spawnInterval: 1
+  fossilSpeed: 5
+--- !u!4 &1424952094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424952092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.05, y: -4.24, z: 0.033207376}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1541147084
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +715,7 @@ GameObject:
   - component: {fileID: 1563004832}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -790,6 +848,7 @@ MonoBehaviour:
   - {fileID: 2291593524581873629, guid: 4cc461b74f51807489f0fa7efb150089, type: 3}
   - {fileID: 3118244247205779547, guid: da49870c25677334199df44b274d4f66, type: 3}
   spawnInterval: 1
+  eggSpeed: 10
 --- !u!4 &1785914746
 Transform:
   m_ObjectHideFlags: 0
@@ -798,7 +857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785914744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.05, y: -2.54, z: 0.033207376}
+  m_LocalPosition: {x: 9.36, y: -2.54, z: 0.033207376}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
