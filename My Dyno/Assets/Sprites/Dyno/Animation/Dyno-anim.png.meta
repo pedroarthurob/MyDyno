@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe806897bae1a5842b29205b9d5e05f6
+guid: d737ca827c66aed4ebece008a5263b1f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bushes_0
+      name: Dyno-anim_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba8dd035072beed478ad72ec63617a42
-      internalID: 2030333682
+      spriteID: 2dec2beba8307df44bb4b08e519452cb
+      internalID: 1484828689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushes_1
+      name: Dyno-anim_1
       rect:
         serializedVersion: 2
         x: 48
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62ea254ddb4fe22449afd892ee7ffb04
-      internalID: -853165143
+      spriteID: 7c928a1b6dc58f447a761a3a758de085
+      internalID: -100713951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushes_2
+      name: Dyno-anim_2
       rect:
         serializedVersion: 2
         x: 96
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f12828b4d8c3a48b40fd5b91034bd6
-      internalID: 161609088
+      spriteID: 771595a24c51db04fa2a137901b7343d
+      internalID: 1061029676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bushes_3
+      name: Dyno-anim_3
       rect:
         serializedVersion: 2
         x: 144
@@ -194,8 +194,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f65984a47252ac445b9075c9b45c1e11
-      internalID: 100292166
+      spriteID: 8f44f2da1ef26e845905223bb6d2130a
+      internalID: -57810661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyno-anim_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea19936e70963d43b7645711e3116c7
+      internalID: -1098220701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dyno-anim_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eade3c6d05b986049af2f053306e8ff2
+      internalID: -351343432
       vertices: []
       indices: 
       edges: []
@@ -211,10 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bushes_0: 2030333682
-      Bushes_1: -853165143
-      Bushes_2: 161609088
-      Bushes_3: 100292166
+      Dyno-anim_0: 1484828689
+      Dyno-anim_1: -100713951
+      Dyno-anim_2: 1061029676
+      Dyno-anim_3: -57810661
+      Dyno-anim_4: -1098220701
+      Dyno-anim_5: -351343432
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

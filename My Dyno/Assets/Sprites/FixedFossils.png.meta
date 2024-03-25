@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 738f32364dd218b49948d1aa12f289fe
+guid: e89525c9108a2394eb104d568e8e4fd1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,85 +117,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Eggs_0
+      name: FixedFossils_0
       rect:
         serializedVersion: 2
-        x: 83
-        y: 20
-        width: 26
-        height: 28
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9c8993dbc806d54f9afc1c83920b462
-      internalID: -1845069182
+      spriteID: a0ee43c96d1d55d4d849ea4fe35d5ec2
+      internalID: -1907108725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eggs_1
+      name: FixedFossils_1
       rect:
         serializedVersion: 2
-        x: 115
-        y: 20
-        width: 26
-        height: 28
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ade45ea8131184d4bbe37aa84a3ef342
-      internalID: 990422120
+      spriteID: 6bfb944ce71884d489775e70be359536
+      internalID: 422782227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eggs_2
+      name: FixedFossils_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 20
-        width: 26
-        height: 28
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d51b5ae56b040e84280d0cbe3d7fa065
-      internalID: -1669335778
+      spriteID: 43aee43693750d247a1b4d09dc60b649
+      internalID: 903593867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eggs_3
+      name: FixedFossils_3
       rect:
         serializedVersion: 2
-        x: 179
-        y: 20
-        width: 26
-        height: 28
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e2d845eac4d7634fb3d97c51f20799e
-      internalID: -1125278515
+      spriteID: 414aca7d1aca3474681c48cb64c1560d
+      internalID: 1094191869
       vertices: []
       indices: 
       edges: []
@@ -211,10 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Eggs_0: -1845069182
-      Eggs_1: 990422120
-      Eggs_2: -1669335778
-      Eggs_3: -1125278515
+      FixedFossils_0: -1907108725
+      FixedFossils_1: 422782227
+      FixedFossils_2: 903593867
+      FixedFossils_3: 1094191869
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
