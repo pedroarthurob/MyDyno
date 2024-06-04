@@ -7,6 +7,6 @@ public class GroundMove : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Vector2.left * Time.fixedDeltaTime * groundSpeed);  
+        transform.Translate(Vector2.left * Time.deltaTime * groundSpeed);  
     }
 }

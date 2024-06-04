@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Egg : MonoBehaviour
+public class Egg : Obstacle
 {
     private void OnBecameInvisible()
     {

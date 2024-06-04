@@ -6,13 +6,21 @@ public class Dyno : MonoBehaviour
     [SerializeField] 
     private bool _onGround = true;
     private Rigidbody2D rb;
+    
     [SerializeField] 
     private float jumpForce = 12f;
 
     [SerializeField]
     private float jumpGravityScale = 5f;
+
+    [SerializeField]
+    private float jumpHeight = 5f;
+
     [SerializeField]
     private float fallGravityScale = 10f;
+
+    [SerializeField]
+    private GameManager gameManager;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -21,6 +29,8 @@ public class Dyno : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow) && _onGround) 
         {
+            rb.gravityScale = jumpGravityScale;
+            float jumpForce = Mathf.Sqrt(jumpHeight * (Physics2D.gravity.y * rb.gravityScale) * -2) * rb.mass;
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
@@ -43,6 +53,11 @@ public class Dyno : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             _onGround = true;
+        }
+
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            gameManager.GameOver();
         }
     }
 

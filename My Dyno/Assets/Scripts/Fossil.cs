@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Fossil : MonoBehaviour
+public class Fossil : Obstacle
 {
     void OnBecameInvisible()
     {
