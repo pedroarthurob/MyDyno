@@ -35,4 +35,4 @@ This project has been a significant learning experience, despite the challenges 
 
 ## Little showdown
 
-
+![MyDyno GamePlay](https://github.com/pedroarthurob/MyDyno/blob/main/Vídeo%20sem%20título%20‐%20Feito%20com%20o%20Clipchamp%20(3).gif)
